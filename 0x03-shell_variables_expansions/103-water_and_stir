@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((`echo "ibase=$water; obase=$bestchol; $WATER" | bc` + `echo "ibase=$stir; obase=$bestchol; $STIR" | bc`))
